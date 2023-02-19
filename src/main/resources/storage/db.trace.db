@@ -1,0 +1,44 @@
+2023-02-18 17:36:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-18 17:41:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-18 17:44:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-18 17:45:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-18 17:56:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-18 17:58:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.code,c1_0.name from Country c1_0 [42104-214]
+2023-02-19 12:21:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; oczekiwano "INTO"
+Syntax error in SQL statement "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; expected "INTO"; SQL statement:
+insert ignore into country (id, name, code) values (1, 'Poland', 'pl') [42001-214]
+2023-02-19 12:24:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; oczekiwano "INTO"
+Syntax error in SQL statement "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; expected "INTO"; SQL statement:
+insert ignore into country (id, name, code) values (1, 'Poland', 'pl') [42001-214]
+2023-02-19 12:26:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; oczekiwano "INTO"
+Syntax error in SQL statement "insert [*]ignore into country (id, name, code) values (1, 'Poland', 'pl')"; expected "INTO"; SQL statement:
+insert ignore into country (id, name, code) values (1, 'Poland', 'pl') [42001-214]
+2023-02-19 12:26:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+insert into country (id, name, code) values (1, 'Poland', 'pl') [42104-214]
+2023-02-19 12:27:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" not found (this database is empty); SQL statement:
+insert into country (id, name, code) values (1, 'Poland', 'pl') [42104-214]
+2023-02-19 13:27:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "update POSTCARD set (countryoforigin_id[*]=1)"; oczekiwano "., ,, )"
+Syntax error in SQL statement "update POSTCARD set (countryoforigin_id[*]=1)"; expected "., ,, )"; SQL statement:
+update POSTCARD set (countryoforigin_id=1) [42001-214]
+2023-02-19 13:28:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Błąd składniowy w wyrażeniu SQL "[*]SPOSTCARD"; oczekiwano "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "[*]SPOSTCARD"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SPOSTCARD [42001-214]

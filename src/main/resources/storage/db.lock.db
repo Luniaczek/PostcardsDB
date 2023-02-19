@@ -1,0 +1,6 @@
+#FileLock
+#Sun Feb 19 13:39:06 CET 2023
+server=192.168.0.18\:65032
+hostName=192.168.0.18
+method=file
+id=18669af5fe7186f3b1019bc0d331e0d236247a8b779
